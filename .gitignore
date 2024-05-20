@@ -47,3 +47,23 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+## emilopezcano template -----------------------
+
+## Reports output files 
+##  -- add any other locations if needed
+##  -- For keeping desired files, add, e.g., !<filename.docx>
+reports/*html
+reports/*_files
+reports/*docx
+reports/*pdf
+
+## Folder OS specific info
+**/.DS_Store
+**/desktop.ini
+
+## MS Office lock files
+**/~$*
+
+## Large files 
+##  -- include large files that my result in GitHub errors
