@@ -1,6 +1,10 @@
-#' Title
+#' Run shiny application
 #'
 #' @return
+#'
+#' @import shiny
+#' @import bslib
+#' 
 #' @export
 #'
 #' @examples
