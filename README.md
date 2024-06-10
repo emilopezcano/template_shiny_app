@@ -17,3 +17,11 @@ Not underscores allowed
 - Typical R package structure (DESCRIPTION file, R folder)
 
 - R functions
+
+## My development workflow
+
+- Use functions for rendering outputs and even for producing ui elements.
+
+- Go to the terminal tab and run: `Rscript -e 'devtools::load_all();app_run()'`
+
+- Stop and rerun in the terminal.
