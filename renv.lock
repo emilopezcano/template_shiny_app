@@ -379,6 +379,11 @@
       ],
       "Hash": "5f5a7629f956619d519205ec475fe647"
     },
+    "usethis": {
+      "Package": "usethis",
+      "Version": "2.2.3",
+      "Source": "Repository"
+    },
     "withr": {
       "Package": "withr",
       "Version": "3.0.0",
