@@ -1,6 +1,6 @@
 # template_shiny_app
 
-Project template for a shiny app
+Project template for a shiny app.
 
 ## How to use the template
 
@@ -11,12 +11,30 @@ Not underscores allowed
   + roxygen2
   + testthat
   + pkgdown
+  + usethis
+  
+the template is configured to use {renv}. You can `renv::restore()`, and then 
+(optionally) update the packages to the last version, then `renv::snaphot()`.
+Or you can `renv::deactivate)`.
+
+Update the LICENCE info: `use_mit_license()`, `use_gpl3_license()`,
+use_proprietary_licence("MY COMPANY")` or friends to pick a license
+
+## Customise your app
+
+- In `app.ui`:
+  + Change title and window_title
+  + Change title of sections and sidebars
+  
+- In the inst/app/www folder, include your own resources
 
 ## Template structure
 
 - Typical R package structure (DESCRIPTION file, R folder)
 
 - R functions
+
+- inst/app/www folder for additional resources (JS, CSS, images, ...)
 
 - Translation folder (if multilanguage)
 
