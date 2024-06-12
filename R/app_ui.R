@@ -6,7 +6,7 @@ app_ui <- function(request){
     inverse = TRUE,
     sidebar = sidebar(title = "Selections", 
                       position = "left",
-                      img(src = "www/emilio4.png", width = "100px"),),
+                      img(src = "www/emilio4.png", width = "100px")),
     nav_panel(title = "Overview",
               layout_sidebar(sidebar = sidebar(position = "right",
                                                myvbs()[1],
