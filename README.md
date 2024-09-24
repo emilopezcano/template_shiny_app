@@ -26,7 +26,8 @@ use_proprietary_licence("MY COMPANY")` or friends to pick a license
   + Change title and window_title
   + Change title of sections and sidebars
   
-- In the inst/app/www folder, include your own resources
+- In the inst/app/www folder, include your own resources, and change the package name
+in the `R/zzz.R` script.
 
 ## Template structure
 
