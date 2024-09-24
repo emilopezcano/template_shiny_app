@@ -39,6 +39,20 @@ in the `R/zzz.R` script.
 
 - Translation folder (if multilanguage)
 
+## Branches
+
+### Multilanguage
+
+If you plan to program a multilanguage dashboard, see in this branch how to implement it.
+
+Based on this post:
+
+<https://discindo.org/post/using-shiny-i18n-with-golem-for-server-side-translation/>
+
+But fixing an issue: remove the session argument in:
+
+`shiny.i18n::update_lang(input$slang)`
+
 ## My development workflow
 
 - Use functions for rendering outputs and even for producing ui elements.
